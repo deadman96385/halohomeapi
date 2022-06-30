@@ -9,7 +9,7 @@ from bleak.exc import BleakError
 
 VERSION = metadata.version("halohome")
 HOST = "https://api.avi-on.com"
-PRODUCT_IDS = (93,)
+PRODUCT_IDS = (162,)
 TIMEOUT = 5
 
 _LOGGER = logging.getLogger(__name__)
