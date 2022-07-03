@@ -159,6 +159,7 @@ async def _load_devices(
     response = await _make_request(
         host, f"locations/{location_id}/abstract_devices", auth_token=auth_token, timeout=timeout
     )
+    print(response)
     raw_devices = response["abstract_devices"]
     devices = []
 
