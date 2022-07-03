@@ -20,8 +20,8 @@ DEV_REQUIRES = [
 ]
 
 setup(
-    name="halohomeapi",
-    version="0.8.0",
+    name="halohome",
+    version="0.9.0",
     description=description,
     long_description=long_description,
     long_description_content_type="text/markdown",
